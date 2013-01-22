@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main(int argc,char *argv[])
+{
+    int i=1;
+    for(i=1;i<argc;i++)
+    {
+           printf("Argument %d=%s\n",i,argv[i]);
+    }
+    printf("\nThe number of Arguments =%d",argc-1);
+    getch();
+    return 0;
+}
